@@ -1,5 +1,7 @@
 <?php 
+    require_once "./includes/authcheck.php";
     require_once "./db/conn.php";
+
     if (!$_GET['ids']){
         include './includes/error.php';
         header('Location: viewrecords.php');

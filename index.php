@@ -57,6 +57,14 @@
                 anyone else.</small>
                 <br>
             </div>
+            <br>
+
+
+            <!-- <div class="custom-file">
+                <input accept="image/*" type="file" class="custom-file-input" id= "avatar" name="avatar">
+                <label class="custom-file-label" for="avatar">Choose File</label>
+            </div> -->
+
             <!-- password
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>

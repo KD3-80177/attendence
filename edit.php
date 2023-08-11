@@ -1,6 +1,7 @@
 <?php 
         $title = 'Edit Record';
         require_once './includes/header.php';
+        require_once "./includes/authcheck.php";
         require_once '../attendence/db/conn.php'; 
 
         $result = $Crud->getspeciality();

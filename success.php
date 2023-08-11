@@ -10,7 +10,16 @@
             $email = $_POST['email'];
             $contact = $_POST['contact'];
             $speciality = $_POST['speciality'];
+
+            // $orig_file = $_FILES["avatar"]["tmp_name"];
+            // $target_dir = 'uploads/';
+            // $destination = $target_dir.basename($_FILES["avatar"]["name"]);
+            // move_uploaded_file($orig_file,$destination);
+
+            exit();
+
             $issuccess = $Crud->insertattendees($fname, $lname, $dob, $email,$contact, $speciality);
+            //$specialityName = $Crud->getSpecialityById($speciality);
 
             if($issuccess){
                 // echo '<h1 class="text-center text-success">You have been successfully registered.</h1>';
